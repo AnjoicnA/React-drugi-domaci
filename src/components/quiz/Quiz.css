@@ -1,0 +1,42 @@
+ul{
+    justify-content: center;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    cursor: pointer;
+    width: 20vw;
+    margin: auto;
+    text-align: left;
+}
+
+li:hover{
+    color: #133026;
+}
+
+li:active{
+    transform: translateY(4px);
+}
+
+.true{
+    font-weight: bold;
+    background-color: green;
+}
+
+#correct{
+    color: green;
+}
+
+#incorrect{
+    color: red;
+}
+
+#timer{
+    color: yellow;
+}
+
+.top{
+    margin-top: 2vh;
+}
